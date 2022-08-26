@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="container">
     <section>
       <!-- navbar starts -->
       <nav class="navbar navbar-expand-lg bg-light">
@@ -57,10 +57,11 @@
           </div>
         </div>
       </nav>
+      </section>
       <!-- navbar ends -->
 
       <!-- slider starts -->
-
+      <section class="mb-5 pb-5">
       <div id="carouselExampleCaptions" class="carousel slide h-75" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -73,8 +74,8 @@
         <div class="carousel-inner">
           <div class="carousel-item image-opacity active " data-bs-interval="5000">
             <img src="images/cover/cover-1.png" class="d-block img-fluid" alt="...">
-            <div class="carousel-caption d-none d-md-block ">
-              <h2>Get Started With Online learning</h2>
+            <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+              <h2 >Get Started With Online learning</h2>
               <p>Almost 500+ courses are prepared for your best quality learning.</p>
               <button class="btn btn-primary btn-lg " style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 1rem;"
                 type="submit">Get Started</button>
@@ -115,7 +116,138 @@
       <!-- slider ends -->
     </section>
   </header>
-  <main>
+  <main class="mt-5 pt-5 container text-center">
+    <h2>Our Popular Courses</h2>
+    <p>Discover our popular courses.learn about our courses by getting an overview.</p>
+
+    <!-- doing the cards starts here -->
+    <section>
+    <div class="">
+
+      <div class="card text-start d-flex" >
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/course/course-1.png" class="img-fluid  rounded-start" alt="...">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+              <p class="card-text ">There are about 50 lectures on the core fundamentals of UI/UX designs which wil turn you into a pro.</p>
+              <p>Price:$250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-start d-flex" >
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/course/course-2.png" class="img-fluid  rounded-start" alt="...">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Javascript Basic to advanced</h5>
+              <p class="card-text ">There are about 50 lectures on the core fundamentals of UI/UX designs which wil turn you into a pro.</p>
+              <p>Price:$250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card text-start d-flex" >
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/course/course-3.png" class="img-fluid  rounded-start" alt="...">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Fullstack Web Development</h5>
+              <p class="card-text ">There are about 50 lectures on the core fundamentals of UI/UX designs which wil turn you into a pro.</p>
+              <p>Price:$250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-start d-flex" >
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/course/course-4.png" class="img-fluid  rounded-start" alt="...">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text ">There are about 50 lectures on the core fundamentals of UI/UX designs which wil turn you into a pro.</p>
+              <p> Price: $250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-start d-flex" >
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/course/course-5.png" class="img-fluid  rounded-start" alt="...">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Photography Basic Rules</h5>
+              <p class="card-text ">There are about 50 lectures on the core fundamentals of UI/UX designs which wil turn you into a pro.</p>
+              <p>Price:$250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-start d-flex" >
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/course/course-6.png" class="img-fluid  rounded-start" alt="...">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Motion Graphics</h5>
+              <p class="card-text ">There are about 50 lectures on the core fundamentals of UI/UX designs which wil turn you into a pro.</p>
+              <p>$250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </section>
+
+    <section class="bg-info mt-5 p-5 text-start d-grid" style="height: 200px;">
+      <div class="row justify-content-center align-items-center">
+      <div class="col-md-9">
+        <h1>Ready To Join?</h1>
+        <p>It is a long established fact that a reader will be distracted by the 
+          readable content of a page when looking at its layout.</p>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+        
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">email id needed</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Enter Your Email
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Proceed</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    </section>
 
   </main>
 
